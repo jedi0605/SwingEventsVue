@@ -5,8 +5,14 @@
     </i>
     <div class="details">
       <h3>
-        <slot name="heading"></slot>
+        <!-- <a class='btn btn-link' href='#'> -->
+        <a href="www.googe.com.tw">
+          <slot name="link"></slot>
+          <slot name="heading"></slot>
+        </a>
       </h3>
+      <!-- <h3><a class='btn btn-link' href='#'>detail</a></h3> -->
+
       <slot></slot>
     </div>
   </div>
